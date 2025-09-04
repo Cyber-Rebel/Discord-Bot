@@ -7,8 +7,7 @@ const aireponces= require('./Geimiai.js')
 
 
 const { Client, GatewayIntentBits } = require('discord.js');
-const client = new Client({
-     intents: [ // ese aap apne jisab se modify kar sakte hae ese hame pata chalta hae ki bot kya milga na chaiye 
+const client = new Client({ intents: [ // ese aap apne jisab se modify kar sakte hae ese hame pata chalta hae ki bot kya milga na chaiye 
     GatewayIntentBits.Guilds,
     GatewayIntentBits.GuildMessages, // ese me pata chatla hae message aaya sirf kya aya pata nahi this auto mazatio server par jisteme me message aaye ese pata caliye ese liye hot ahe 
     GatewayIntentBits.MessageContent    // ese pata chatal hae message kya aya         
