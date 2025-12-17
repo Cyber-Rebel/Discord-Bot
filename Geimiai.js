@@ -4,7 +4,7 @@ const ai = new GoogleGenAI({});
 
 async function aireponces(prompts) {
   const response = await ai.models.generateContent({
-    model: "gemini-2.0-flash",
+    model: "gemini-2.5-flash",
     contents: prompts,
     config: {
       thinkingConfig: {
