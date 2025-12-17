@@ -1,0 +1,3 @@
+# CSS ko language stats se exclude karo
+public/css/* linguist-vendored
+**/*.css linguist-vendored
